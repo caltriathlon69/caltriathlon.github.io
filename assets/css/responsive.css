@@ -1,0 +1,72 @@
+@media screen and (min-width: 480px) {
+	header {
+	}
+}
+
+@media screen and (min-width: 680px) {
+	
+	
+	nav {
+		float: right;
+		width: 70%;
+		margin-right: 2.5%;
+	}
+	
+	.modal-view {
+		top: 200px;
+
+	}
+	
+	#cal-tri-logo {
+		float: left;
+		margin-left: 2.5%;
+		text-align: left;
+		width: 25%;
+	}
+	
+	#cal-tri-logo img {
+		max-height: 125px;
+	}
+	
+	#intro {
+		text-align: center;
+		font-size: 1.5em;
+		background-color: rgba(0, 0, 0, 0.8);
+		border: 7px #003a70 solid;
+		color: #0099FF;
+	}
+	
+	iframe {
+		width: 600px;
+	}
+	
+	#contact-banner-image {
+		width: 60%;
+	}
+	
+	td img {
+	max-height: 100px;
+	max-width: 100px;
+	}
+	
+	#sponsor-footer, #contact-footer {
+		position: absolute;
+		bottom: 0;
+	}
+		
+	.sponsors-footer-table tr {
+		display: inline-block;
+	}
+		
+}
+
+@media screen and (min-width: 1024px) {
+	
+	#contact-modal-view {
+		padding-top: 350px;
+	}
+	
+}
+
+
+

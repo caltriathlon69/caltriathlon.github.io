@@ -8,50 +8,183 @@
 		<link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css"/>
 		<link rel="stylesheet" type="text/css" media="screen" href="assets/css/responsive.css"/>
 		<link rel="shortcut icon" type="image/png" href="assets/images/logos/favicon.png"/>
-		<script src="assets/js/menu.js"></script>
+		<script src="assets/js/jquery-1.11.3.js"></script>
 	</head>
-	<body class="intro-body">
-		
+	<body class="intro-body" id="body">
 		<div class="wraparound">
-		
 		<header>
 			<a href="http://caltriathlon.com/" id="cal-tri-logo">
 					<img src="assets/images/logos/caltrilogo.png" alt="The UC Berkeley Triathlon Logo"/>
 			</a>
 			<nav>
 				<ul>
-					<li><a href="index.html"> HOME </a></li>
-					<li><a href="information.html"> INFORMATION </a></li>
+					<li><a id="home"> HOME </a></li>
+					<li><a id="information"> INFORMATION </a></li>
 					<li><a target="_blank" href="https://racemill.com/bearathlon"> REGISTER </a></li>
-					<li><a href=> RESULTS </a></li>
-					<li><a href="volunteer.html"> VOLUNTEER </a></li>
-					<li><a href="sponsorship.html"> SPONSORSHIP </a></li>
-					<li><a href="contact.html"> CONTACT US </a></li>
+					<li><a > RESULTS </a></li>
+					<li><a id="volunteer"> VOLUNTEER </a></li>
+					<li><a id="sponsorship"> SPONSORSHIP </a></li>
+					<li><a id="contact"> CONTACT US </a></li>
 				</ul>
 			</nav>
 		</header>
-			
-		<footer>
-			<div id="sponsor-banner">	
-				<table class="sponsors-footer-table">
-					<tr>
-						<td><a target="_blank" href= "http://onyourmarkevents.com/oymenew/index.php"><img src="assets/images/sponsors/OYME-white.png" alt="On Your Mark Events"/></a></td>
-						<td><a target="_blank" href="http://www.bowlesverna.com/"><img src="assets/images/sponsors/BowlesVerna.png" alt="Bowles and Verna"/></a></td>
-						<td><a target="_blank" href="http://www.sportsbasement.com/"><img src="assets/images/sponsors/SB.png" alt="Sports Basement"/></a></td>
-						<td><a target="_blank" href="http://www.rokasports.com/"><img src="assets/images/sponsors/Roka.png" alt="Roka"/></a></td>
-						<td><a target="_blank" href="https://guenergy.com/"><img src="assets/images/sponsors/GU.png" alt="GU Energy"/></a></td>
-					</tr>
-					<tr>
-						<td><a target="_blank" href="http://www.primalwear.com/"><img src="assets/images/sponsors/Primal.png" alt="Primal Wear"/></a></td>
-						<td><a target="_blank" href="http://www.clifbar.com/"><img src="assets/images/sponsors/Clif.png" alt="Clif Bar"/></a></td>
-						<td><a target="_blank" href="http://p-fits.com/"><img src="assets/images/sponsors/p-fits.png" alt="p-fits"/></a></td>
-						<td><a target="_blank" href="http://www.rudyproject.com/"><img src="assets/images/sponsors/Rudy.png" alt="Rudy Project"/></a></td>
-					</tr>				
-				</table>
+		<section class="modal-view" id="volunteer-mode">
+			<div class="modal">
+				<h1> Volunteer</h1>
+				<h2> Interested in helping foster the growth of collegiate triathlon with Cal Tri?</h2>
+			<p>Please email Vincent Bartle at <a href="mailto:vbartle@berkeley.edu" target="_top">vbartle@berkeley.edu</a>.</p>
+				<h2> INSERT MORE VOLUNTEER INFORMATION HERE </h2>
 			</div>
-		</footer>	
-		
+		</section>	
+		<section class="modal-view" id="information-mode">
+				<div class="modal">
+					<h1> Course Information </h1>
+					<h2 class="courses">SWIM COURSE </h2>
+					<div class="course-frame">
+						<iframe name="plotaroute_map_74702" src="http://www.plotaroute.com/embedmap/74702" frameborder="0" scrolling="no"  width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/74702" target="_blank" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p><p> ENTER SWIM COURSE DESCRIPTION HERE!</p>
+					</div>
+					<h2 class="courses">TRANSITION #1 </h2>
+					<div class="course-frame">
+						<iframe name="plotaroute_map_74704" src="http://www.plotaroute.com/embedmap/74704" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/74704" target="_blank" title="View this route on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
+						<p> ENTER TRANSITION COURSE DESCRIPTION HERE!</p>
+					</div>
+					<h2 class="courses">BIKE COURSE </h2>
+					<div class="course-frame">
+						<iframe name="plotaroute_map_74708" src="http://www.plotaroute.com/embedmap/74708" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/74708" target="_blank" title="View this route on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
+						<p> ENTER BIKE COURSE DESCRIPTION HERE!</p>
+					</div>
+					<h2 class="courses">TRANSITION #2 </h2>
+					<div class="course-frame">
+						<iframe name="plotaroute_map_74709" src="http://www.plotaroute.com/embedmap/74709" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/74709" target="_blank" title="View this route on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
+						<p> ENTER TRANSITION COURSE DESCRIPTION HERE!</p>
+					</div>	
+					<h2 class="courses">RUN COURSE </h2>
+					<div class="course-frame">
+						<iframe name="plotaroute_map_74712" src="http://www.plotaroute.com/embedmap/74712" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/74712" target="_blank" title="View this route on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
+						<p> ENTER RUN COURSE DESCRIPTION HERE!</p>
+					</div>
+					<br>
+					<h1> Other Information </h1>
+					<h2> Registration </h2>
+					<a href="https://racemill.com/bearathlon" title="Register at RaceMill.com"><img id="racemill" src="https://racemill.com/img/linkbacks/RM_Embed_Link_STREET_728x250.gif" /></a>
+				</div>
+			</section>		
+			<section class="modal-view" id="sponsorship-mode">
+				<div class="modal">
+					<h1> Sponsorship</h1>
+					
+					<h2> A Special Thanks To Our Current Sponsors </h2>
+					<div id="sponsors-top"> 
+						<a target="_blank" href="http://onyourmarkevents.com/oymenew/index.php"><img src="assets/images/sponsors/OYME-white.png" alt="On Your Mark Events"/></a>
+					</div>
+					<table class="sponsors-table">
+						<tr>
+							<td><a target="_blank" href="http://www.bowlesverna.com/"><img src="assets/images/sponsors/BowlesVerna.png" alt="Bowles and Verna"/></a></td>
+							<td><a target="_blank" href="http://www.sportsbasement.com/"><img src="assets/images/sponsors/SB.png" alt="Sports Basement"/></a></td>
+							<td><a target="_blank" href="http://www.rokasports.com/"><img src="assets/images/sponsors/Roka.png" alt="Roka"/></a></td>
+							<td><a target="_blank" href="https://guenergy.com/"><img src="assets/images/sponsors/GU.png" alt="GU Energy"/></a></td>
+						</tr>	
+						<tr>
+							<td><a target="_blank" href="http://www.primalwear.com/"><img src="assets/images/sponsors/Primal.png" alt="Primal Wear"/></a></td>
+							<td><a target="_blank" href="http://www.clifbar.com/"><img src="assets/images/sponsors/Clif.png" alt="Clif Bar"/></a></td>
+							<td><a target="_blank" href="http://p-fits.com/"><img src="assets/images/sponsors/p-fits.png" alt="p-fits"/></a></td>
+							<td><a target="_blank" href="http://www.rudyproject.com/"><img src="assets/images/sponsors/Rudy.png" alt="Rudy Project"/></a></td>
+						</tr>
+					</table>
+				<p> Also, special thanks to Andy MJ for the amazing team photos seen throughout the site!	
+				</p>		
+				<p>To ensure that we can continue our tradition of running a quality race, we need companies and individuals to partner with us! We aim to provide a unique and fulfilling experience to every racer, and we need your help! This is an excellent opportunity for your company to get exposure to the quickly expanding demographic of collegiate triathlons. We are a non profit organization so as always, your service, product, or monetary donations are tax deductible.</p>
+				<p> If you are interested in partnering with Bearathlon 2015, please contact our Sponsorship Chairs:<br><br>
+				Vincent Bartle <br>
+				<a href="mailto:vbartle@berkeley.edu" target="_top">vbartle@berkeley.edu</a> <br>
+				<br>
+				<br>
+				</p>
+				</div>
+			</section>	
+			<section class="modal-view" id="contact-mode">
+				<div class="modal">
+					<img src="assets/images/backgrounds/contact-background.jpg" id="contact-banner-image">
+					<h1> Contact Us</h1>
+					<h2> How can we help you?</h2>
+					<p> We understand that there are a lot of questions about triathlon, and we are here to answer any and all of them for you.  Please email us with any questions, concerns, or comments that come up as you register for the race or prepare to travel to the beautiful East Bay.</p>
+					<h2>Please note that there will be no refund policy for this event.</h2>
+					<h2>Contact Info:</h2>
+					<p> Please email Vincent Bartle at <a href="mailto:vbartle@berkeley.edu" target="_top">vbartle@berkeley.edu</a>.</p>
+				</div>
+			</section>			
+			<footer>
+				<div id="sponsor-banner">	
+					<table class="sponsors-footer-table">
+						<tr>
+							<td><a target="_blank" href= "http://onyourmarkevents.com/oymenew/index.php"><img src="assets/images/sponsors/OYME-white.png" alt="On Your Mark Events"/></a></td>
+							<td><a target="_blank" href="http://www.bowlesverna.com/"><img src="assets/images/sponsors/BowlesVerna.png" alt="Bowles and Verna"/></a></td>
+							<td><a target="_blank" href="http://www.sportsbasement.com/"><img src="assets/images/sponsors/SB.png" alt="Sports Basement"/></a></td>
+							<td><a target="_blank" href="http://www.rokasports.com/"><img src="assets/images/sponsors/Roka.png" alt="Roka"/></a></td>
+							<td><a target="_blank" href="https://guenergy.com/"><img src="assets/images/sponsors/GU.png" alt="GU Energy"/></a></td>
+						</tr>
+						<tr>
+							<td><a target="_blank" href="http://www.primalwear.com/"><img src="assets/images/sponsors/Primal.png" alt="Primal Wear"/></a></td>
+							<td><a target="_blank" href="http://www.clifbar.com/"><img src="assets/images/sponsors/Clif.png" alt="Clif Bar"/></a></td>
+							<td><a target="_blank" href="http://p-fits.com/"><img src="assets/images/sponsors/p-fits.png" alt="p-fits"/></a></td>
+							<td><a target="_blank" href="http://www.rudyproject.com/"><img src="assets/images/sponsors/Rudy.png" alt="Rudy Project"/></a></td>
+						</tr>				
+					</table>
+				</div>
+			</footer>	
 		</div>
+		<script>
+			$(document).ready(function(){
+				$("#home").click(function(){
+					$(".modal-view").fadeOut(3000);
+					$("#body").removeClass('info-body');
+					$("#body").removeClass('contact-body');
+					$("#body").removeClass('volunteer-body');
+					$("#body").removeClass('sponsor-body');				
+				});
+				$("#information").click(function(){
+					if ($("#information-mode").css("display") === "none") {
+						$(".modal-view").fadeOut(1000);
+						$("#body").removeClass('contact-body');
+						$("#body").removeClass('volunteer-body');
+						$("#body").removeClass('sponsor-body');		
+						$("#body").addClass('info-body');
+						$("#information-mode").fadeIn(1500);
+					}
+				});
+				$("#volunteer").click(function(){
+					if ($("#volunteer-mode").css("display") === "none") {
+						$(".modal-view").fadeOut(100);
+						$("#body").removeClass('info-body');
+						$("#body").removeClass('contact-body');
+						$("#body").removeClass('sponsor-body');							
+						$("#body").addClass('volunteer-body');
+						$("#volunteer-mode").fadeIn(1500);
+					}
+				})
+				$("#sponsorship").click(function(){
+					if ($("#sponsorship-mode").css("display") === "none") {
+						$(".modal-view").fadeOut(100);
+						$("#body").removeClass('info-body');
+						$("#body").removeClass('contact-body');
+						$("#body").removeClass('volunteer-body');							
+						$("#body").addClass('sponsor-body');						
+						$("#sponsorship-mode").fadeIn(1500);
+					}
+				});
+				$("#contact").click(function(){
+					if ($("#contact-mode").css("display") === "none") {
+						$(".modal-view").fadeOut(100);
+						$("#body").removeClass('info-body');
+						$("#body").removeClass('volunteer-body');
+						$("#body").removeClass('sponsor-body');							
+						$("#body").addClass('contact-body');
+						$("#contact-mode").fadeIn(1500);
+						$("footer").animate();
+					}
+				});
+			});
+		</script>
 	</body>
 </html>
 

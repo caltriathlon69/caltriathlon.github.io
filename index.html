@@ -74,8 +74,11 @@
 					<h1> Sponsorship</h1>
 					
 					<h2> A Special Thanks To Our Current Sponsors </h2>
-					<div id="sponsors-top"> 
-						<a target="_blank" href="http://onyourmarkevents.com/oymenew/index.php"><img src="assets/images/sponsors/OYME-white.png" alt="On Your Mark Events"/></a>
+					<div id="sponsors-top-container"> 
+						<div id="sponsors-top">
+							<a target="_blank" id="oyme" href="http://onyourmarkevents.com/oymenew/index.php"><img src="assets/images/sponsors/OYME-white.png" alt="On Your Mark Events"/></a>
+							<a target="_blank" id="odyssey" href="http://www.odysseyopenwater.com/"><img src="assets/images/sponsors/Odyssey.png" alt="Odyssey Open Water Swimming"/></a>
+						</div>
 					</div>
 					<table class="sponsors-table">
 						<tr>
@@ -121,13 +124,14 @@
 							<td><a target="_blank" href="http://www.bowlesverna.com/"><img src="assets/images/sponsors/BowlesVerna.png" alt="Bowles and Verna"/></a></td>
 							<td><a target="_blank" href="http://www.sportsbasement.com/"><img src="assets/images/sponsors/SB.png" alt="Sports Basement"/></a></td>
 							<td><a target="_blank" href="http://www.rokasports.com/"><img src="assets/images/sponsors/Roka.png" alt="Roka"/></a></td>
-							<td><a target="_blank" href="https://guenergy.com/"><img src="assets/images/sponsors/GU.png" alt="GU Energy"/></a></td>
+							<td><a target="_blank" href="https://guenergy.com/"><img src="assets/images/sponsors/Odyssey.png" alt="Odyssey"/></a></td>
 						</tr>
 						<tr>
 							<td><a target="_blank" href="http://www.primalwear.com/"><img src="assets/images/sponsors/Primal.png" alt="Primal Wear"/></a></td>
 							<td><a target="_blank" href="http://www.clifbar.com/"><img src="assets/images/sponsors/Clif.png" alt="Clif Bar"/></a></td>
 							<td><a target="_blank" href="http://p-fits.com/"><img src="assets/images/sponsors/p-fits.png" alt="p-fits"/></a></td>
 							<td><a target="_blank" href="http://www.rudyproject.com/"><img src="assets/images/sponsors/Rudy.png" alt="Rudy Project"/></a></td>
+							<td><a target="_blank" href="https://guenergy.com/"><img src="assets/images/sponsors/GU.png" alt="GU Energy"/></a></td>
 						</tr>				
 					</table>
 				</div>
@@ -135,6 +139,7 @@
 		</div>
 		<script>
 			$(document).ready(function(){
+				
 				$("#home").click(function(){
 					$(".modal-view").fadeOut(3000);
 					$("#body").removeClass('info-body');

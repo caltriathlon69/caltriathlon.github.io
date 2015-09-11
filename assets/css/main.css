@@ -174,12 +174,13 @@ iframe {
 }
 
 #sponsors-top {
-	width: 100%;
+	width: 300px;
+	margin: 0 auto;
 }
 
 #sponsors-top img {
-	display: block;
-	margin: auto auto;
+	display: inline-block;
+	margin: 0;
 	padding: 0;
 	max-height: 100px;
 }

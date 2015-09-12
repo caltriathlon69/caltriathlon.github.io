@@ -23,19 +23,31 @@ body {
 
 .intro-body {
 	background-image: url(../images/backgrounds/intro-background.jpg);
+	transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
 }
 
 .info-body {
 	background-image:  url(../images/backgrounds/marina-background.jpg);
+	transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
 }
 
 .volunteer-body {
   	background-image: url(../images/backgrounds/background.jpg);	
+	transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
 }
 
 .contact-body {
 	background-image: none;
 	background-color: black;
+	transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
 }
 
 .sponsor-body {
@@ -159,15 +171,14 @@ nav li:hover, nav a:hover {
 	height: 70px;
 	width: 90%;
 	background-color: #003a70;
-	border: 7px #003a70 solid;
 	display: block;
 	position: relative;
 	margin: 0 auto 0;
 	padding: 0;
-	box-sizing: border-box;
 }
 
 .info-navigation {
+	height: 100%;
 	width: 50%;
 	margin: 0;
 	padding: 15px 0 0 0;
@@ -178,8 +189,11 @@ nav li:hover, nav a:hover {
 
 }
 
-.info-navigation: hover {
+.info-navigation:hover {
 	background-color: rgba(0, 0, 0, 0.7);
+	transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;	
 }
 
 .active-info {
@@ -196,16 +210,20 @@ nav li:hover, nav a:hover {
 #dl-navigation {
 	z-index: 9999;
 	position: absolute;
+	border-top: 7px #003a70 solid;
+	border-left: 7px #003a70 solid;
+	border-bottom: 7px #003a70 solid;
 }
 
 #mtr-navigation {
 	z-index: 9999;
 	position: absolute;
 	right: 0;
+	border-top: 7px #003a70 solid;
+	border-right: 7px #003a70 solid;
+	border-bottom: 7px #003a70 solid;
 }
 
-.inactive-info {
-}
 
 .course-frame {
 	width: 100%;

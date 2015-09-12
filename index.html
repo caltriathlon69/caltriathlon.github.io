@@ -19,7 +19,7 @@
 			<nav>
 				<ul>
 					<li><a id="home"> HOME </a></li>
-					<li><a id="information"> INFORMATION </a></li>
+					<li id="info-elem"><a id="information"> INFORMATION </a></li>
 					<li><a target="_blank" href="https://racemill.com/bearathlon"> REGISTER </a></li>
 					<li><a > RESULTS </a></li>
 					<li><a id="volunteer"> VOLUNTEER </a></li>
@@ -38,57 +38,74 @@
 		</section>	
 		<section class="modal-view" id="information-mode">
 				<div class="modal">
-					<h1> Course Information For Collegiate Individuals</h1>
-					<h2 class="courses">SWIM COURSE </h2>
-					<div class="course-frame">
-						<iframe name="plotaroute_map_112593" src="http://www.plotaroute.com/embedmap/112593" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/112593" target="_blank" title="View this route map on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
+					<h2 style="width: 100%; padding: 0; margin: 20px 0 0 0; text-align:center;">Click below to choose your event!</h2>
+					<div id="info-navigation-container"> 
+						<div class="active-info"></div>
+						<div id="dl-navigation" class="info-navigation"> DRAFT LEGAL</div><div id="mtr-navigation" class="info-navigation">MIXED TEAM RELAY </div>
 					</div>
-					<h2 class="courses">TRANSITION #1 </h2>
-					<div class="course-frame">
-						<iframe name="plotaroute_map_112595" src="http://www.plotaroute.com/embedmap/112595" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/112595" target="_blank" title="View this route map on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
-						<p> ENTER TRANSITION COURSE DESCRIPTION HERE!</p>
-					</div>
-					<h2 class="courses">BIKE COURSE </h2>
-					<div class="course-frame">
-						<iframe name="plotaroute_map_112601" src="http://www.plotaroute.com/embedmap/112601" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/112601" target="_blank" title="View this route map on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
-						<p> ENTER BIKE COURSE DESCRIPTION HERE!</p>
-					</div>
-					<h2 class="courses">TRANSITION #2 </h2>
-					<div class="course-frame">
-						<iframe name="plotaroute_map_112603" src="http://www.plotaroute.com/embedmap/112603" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/112603" target="_blank" title="View this route map on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
-						<p> ENTER TRANSITION COURSE DESCRIPTION HERE!</p>
-					</div>	
-					<h2 class="courses">RUN COURSE </h2>
-					<div class="course-frame">
-						<iframe name="plotaroute_map_112604" src="http://www.plotaroute.com/embedmap/112604" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/112604" target="_blank" title="View this route map on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
-						<p> ENTER RUN COURSE DESCRIPTION HERE!</p>
-					</div>
-
-					<h1 style="border-top: 3px white dashed; padding-top: 40px;"> Course Information For Mixed Team Relay</h1>
-					<h2 class="courses">SWIM COURSE </h2>
-					<div class="course-frame">
-						<iframe name="plotaroute_map_112608" src="http://www.plotaroute.com/embedmap/112608" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/112608" target="_blank" title="View this route map on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
+					<h2 style="width: 100%; text-align: center;">Check the itinerary<a href="https://drive.google.com/a/berkeley.edu/file/d/0B0tB29X9gSOlUkRyT0ROeWpPOXc/view"> HERE</a></h2>
+					<div class="draft-legal">
+						<h1 style="border-top: 3px white dashed; padding-top: 40px;"> Course Information For Collegiate Individuals</h1>
+						<h2 class="courses">SWIM COURSE </h2>
+						<div class="course-frame">
+							<iframe name="plotaroute_map_112593" src="http://www.plotaroute.com/embedmap/112593" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/112593" target="_blank" title="View this route map on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
 						</div>
-					<h2 class="courses">TRANSITION #1 </h2>
-					<div class="course-frame">
-						<iframe name="plotaroute_map_112609" src="http://www.plotaroute.com/embedmap/112609" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/112609" target="_blank" title="View this route map on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
-						<p> ENTER TRANSITION COURSE DESCRIPTION HERE!</p>
+						<h2 class="courses">TRANSITION #1 </h2>
+						<div class="course-frame">
+							<iframe name="plotaroute_map_112595" src="http://www.plotaroute.com/embedmap/112595" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/112595" target="_blank" title="View this route map on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
+							<p> ENTER TRANSITION COURSE DESCRIPTION HERE!</p>
+						</div>
+						<h2 class="courses">BIKE COURSE </h2>
+						<div class="course-frame">
+							<iframe name="plotaroute_map_112601" src="http://www.plotaroute.com/embedmap/112601" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/112601" target="_blank" title="View this route map on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
+							<p> ENTER BIKE COURSE DESCRIPTION HERE!</p>
+						</div>
+						<h2 class="courses">TRANSITION #2 </h2>
+						<div class="course-frame">
+							<iframe name="plotaroute_map_112603" src="http://www.plotaroute.com/embedmap/112603" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/112603" target="_blank" title="View this route map on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
+							<p> ENTER TRANSITION COURSE DESCRIPTION HERE!</p>
+						</div>	
+						<h2 class="courses">RUN COURSE </h2>
+						<div class="course-frame">
+							<iframe name="plotaroute_map_112604" src="http://www.plotaroute.com/embedmap/112604" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/112604" target="_blank" title="View this route map on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
+							<p> ENTER RUN COURSE DESCRIPTION HERE!</p>
+						</div>
 					</div>
-					<h2 class="courses">BIKE COURSE </h2>
-					<div class="course-frame">
-						<iframe name="plotaroute_map_112610" src="http://www.plotaroute.com/embedmap/112610" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/112610" target="_blank" title="View this route map on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
-						<p> ENTER BIKE COURSE DESCRIPTION HERE!</p>
-					</div>
-					<h2 class="courses">TRANSITION #2 </h2>
-					<div class="course-frame">
-						<iframe name="plotaroute_map_112603" src="http://www.plotaroute.com/embedmap/112603" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/112603" target="_blank" title="View this route map on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
-						<p> ENTER TRANSITION COURSE DESCRIPTION HERE!</p>
-					</div>	
-					<h2 class="courses">RUN COURSE </h2>
-					<div class="course-frame">
-						<iframe name="plotaroute_map_112612" src="http://www.plotaroute.com/embedmap/112612" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/112612" target="_blank" title="View this route map on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
-						<p> ENTER RUN COURSE DESCRIPTION HERE!</p>
-					</div>					
+					
+					<div class="mtr">
+						<h1 style="border-top: 3px white dashed; padding-top: 40px;"> Course Information For Mixed Team Relay</h1>
+						<p>One of the most exciting races to watch is the mixed team relay! The triathlon mixed team relay consists of teams of four, comprised of two men and two women. The women go 1st and 3rd, while the men go 2nd and 4th. Each athlete completes a super-sprint, draft-legal triathlon, before tagging their teammate. The race will be 375 meters for the swim, 4.5 miles for the bike, and 1.2 miles for the run. The cost is $180 total to register a team.</p>
+						<h2 class="courses">SWIM COURSE </h2>
+						<div class="course-frame">
+							<iframe name="plotaroute_map_112608" src="http://www.plotaroute.com/embedmap/112608" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/112608" target="_blank" title="View this route map on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
+							</div>
+							<p class="mtr-txt">Swim course: 375 meters, 1 lap <br>
+								The swim is an open water start, with athletes treading water at the start line until the gun goes off. Racers will swim clockwise towards the buoys, before heading back towards the dock where they will be pulled out of the water.</p>
+						<h2 class="courses">TRANSITION #1 </h2>
+						<div class="course-frame">
+							<iframe name="plotaroute_map_112609" src="http://www.plotaroute.com/embedmap/112609" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/112609" target="_blank" title="View this route map on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
+							<p class="mtr-txt"> Transition 1: 0.1 miles<br>
+								Racers will then follow the road to transition, at a grassy field roughly half a lap away.</p>
+						</div>
+						<h2 class="courses">BIKE COURSE </h2>
+						<div class="course-frame">
+							<iframe name="plotaroute_map_112610" src="http://www.plotaroute.com/embedmap/112610" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/112610" target="_blank" title="View this route map on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
+							<p class="mtr-txt"> Bike course: 4.5 miles, 1 lap<br>
+								The bike course is a quick 4.5 mile out and back along the bay on Frontage road. It is a fast and flat road, with no climbs and one tight u-turn. Drafting is allowed during this portion of the race.</p>
+						</div>
+						<h2 class="courses">TRANSITION #2 </h2>
+						<div class="course-frame">
+							<iframe name="plotaroute_map_112603" src="http://www.plotaroute.com/embedmap/112603" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/112603" target="_blank" title="View this route map on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
+							<p class="mtr-txt">	Transition 2: <br>
+								The same location as transition 1, racers will dismount their bikes and start the run portion of the race from here.</p>
+						</div>	
+						<h2 class="courses">RUN COURSE </h2>
+						<div class="course-frame">
+							<iframe name="plotaroute_map_112612" src="http://www.plotaroute.com/embedmap/112612" frameborder="0" scrolling="no" width="640" height="390" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe><p style="margin-top:8px;"><a href="http://www.plotaroute.com/route/112612" target="_blank" title="View this route map on plotaroute.com" style="font-family:Helvetica Neue,Helvetica,arial;font-size:11px;"></a></p>
+							<p class="mtr-txt"> Run course: 1.2 miles, 1 lap<br>
+								The run course is also a fast and flat out and back, where racers run just over half a mile on the San Francisco Bay trail before turning around. The run finishes at the dock, where racers will run to tag the next person in the relay. The last racer, however, will finish at the same finish as the draft legal race.</p>
+						</div>	
+					</div>				
 					
 					<br>
 					<h1 style="border-top: 3px white dashed;" > Other Information </h1>
@@ -215,6 +232,25 @@
 						$("footer").animate();
 					}
 				});
+				var infoleft = 1;
+				$("#mtr-navigation").click(function(){
+					if (infoleft === 1) {
+						infoleft = 0;
+						$(".active-info").animate({left: "+=50%"});
+						$(".draft-legal").fadeOut(100);	
+						$(".mtr").fadeIn(100);								
+					}
+				});
+				$("#dl-navigation").click(function(){
+					if (!infoleft) {
+						infoleft = 1;
+						$(".active-info").animate({left: "-=50%"});
+						$(".mtr").fadeOut(100);		
+						$(".draft-legal").fadeIn(100);					
+					}
+				});				
+				
+				
 			});
 		</script>
 	</body>

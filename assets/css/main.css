@@ -151,7 +151,61 @@ nav li:hover, nav a:hover {
 	border: 7px #003a70 solid;
 }
 
+.mtr {
+	display: none;
+}
 
+#info-navigation-container {
+	height: 70px;
+	width: 90%;
+	background-color: #003a70;
+	border: 7px #003a70 solid;
+	display: block;
+	position: relative;
+	margin: 0 auto 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.info-navigation {
+	width: 50%;
+	margin: 0;
+	padding: 15px 0 0 0;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	box-sizing: border-box;
+
+}
+
+.info-navigation: hover {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.active-info {
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	left : 0;
+	background-color: #FDB515;
+	display: block;
+	z-index: 0;
+}
+
+
+#dl-navigation {
+	z-index: 9999;
+	position: absolute;
+}
+
+#mtr-navigation {
+	z-index: 9999;
+	position: absolute;
+	right: 0;
+}
+
+.inactive-info {
+}
 
 .course-frame {
 	width: 100%;
@@ -165,6 +219,11 @@ iframe {
 	display: block;
 	width: 90%;
 	margin: 0 auto;
+}
+
+.mtr-txt {
+	width: 90%;
+	text-align: justify;
 }
 
 #racemill {

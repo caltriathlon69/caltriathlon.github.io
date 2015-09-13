@@ -153,11 +153,12 @@ nav li:hover, nav a:hover {
 #intro-container {
 	text-align: center;
 	font-size: 2em;
-	padding-top: 600px;
+	padding-top: 400px;
 }
 
 #intro{ 
-	width: 80%;
+	width: 50%;
+	padding: 20px;
 	margin: 0 auto;
 	background-color: rgba(0, 0, 0, 0.8);
 	border: 7px #003a70 solid;
@@ -272,7 +273,8 @@ iframe {
 }
 
 #sponsors-top {
-	width: 300px;
+	width: 400px;
+	display: block;
 	margin: 0 auto;
 }
 

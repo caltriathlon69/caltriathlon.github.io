@@ -22,14 +22,35 @@ body {
 }
 
 .intro-body {
-	background-image: url(../images/backgrounds/berkeley-background.jpg);
+	background-image: url(../images/backgrounds/campanile-background.jpg);
 	transition: opacity .5s ease-in-out;
    -moz-transition: opacity .5s ease-in-out;
    -webkit-transition: opacity .5s ease-in-out;
 }
 
-.info-body {
-	background-image:  url(../images/backgrounds/marina-background.jpg);
+.course-info-body {
+	background-image:  url(../images/backgrounds/berkeley-sunset-background.jpg);
+	transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+}
+
+.general-info-body {
+	background-image:  url(../images/backgrounds/berkeley-sunset-background.jpg);
+	transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+}
+
+.results-body {
+  	background-image: url(../images/backgrounds/berkeley-home-background.jpg);	
+	transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+}
+
+.register-body {
+  	background-image: url(../images/backgrounds/berkeley-home-background.jpg);	
 	transition: opacity .5s ease-in-out;
    -moz-transition: opacity .5s ease-in-out;
    -webkit-transition: opacity .5s ease-in-out;

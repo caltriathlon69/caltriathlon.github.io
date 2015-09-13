@@ -22,7 +22,7 @@ body {
 }
 
 .intro-body {
-	background-image: url(../images/backgrounds/intro-background.jpg);
+	background-image: url(../images/backgrounds/berkeley-background.jpg);
 	transition: opacity .5s ease-in-out;
    -moz-transition: opacity .5s ease-in-out;
    -webkit-transition: opacity .5s ease-in-out;
@@ -132,11 +132,12 @@ nav li:hover, nav a:hover {
 #intro-container {
 	text-align: center;
 	font-size: 2em;
-	padding-top: 600px;
+	padding-top: 400px;
 }
 
 #intro{ 
-	width: 80%;
+	width: 50%;
+	padding: 20px;
 	margin: 0 auto;
 	background-color: rgba(0, 0, 0, 0.8);
 	border: 7px #003a70 solid;

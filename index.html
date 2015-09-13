@@ -28,6 +28,13 @@
 				</ul>
 			</nav>
 		</header>
+		
+		<div id="intro-container">
+			<div id="intro">			
+				BEARATHLON 2015
+			</div>
+		</div>
+		
 		<section class="modal-view" id="volunteer-mode">
 			<div class="modal">
 				<h1> Volunteer</h1>
@@ -185,15 +192,17 @@
 			$(document).ready(function(){
 				
 				$("#home").click(function(){
-					$(".modal-view").fadeOut(3000);
+					$(".modal-view").fadeOut(100);
 					$("#body").removeClass('info-body');
 					$("#body").removeClass('contact-body');
 					$("#body").removeClass('volunteer-body');
-					$("#body").removeClass('sponsor-body');				
+					$("#body").removeClass('sponsor-body');	
+					$("#intro-container").fadeIn(300);			
 				});
 				$("#information").click(function(){
 					if ($("#information-mode").css("display") === "none") {
 						$(".modal-view").fadeOut(1000);
+						$("#intro-container").fadeOut(100);	
 						$("#body").removeClass('contact-body');
 						$("#body").removeClass('volunteer-body');
 						$("#body").removeClass('sponsor-body');		
@@ -204,6 +213,7 @@
 				$("#volunteer").click(function(){
 					if ($("#volunteer-mode").css("display") === "none") {
 						$(".modal-view").fadeOut(100);
+						$("#intro-container").fadeOut(100);	
 						$("#body").removeClass('info-body');
 						$("#body").removeClass('contact-body');
 						$("#body").removeClass('sponsor-body');							
@@ -214,6 +224,7 @@
 				$("#sponsorship").click(function(){
 					if ($("#sponsorship-mode").css("display") === "none") {
 						$(".modal-view").fadeOut(100);
+						$("#intro-container").fadeOut(100);	
 						$("#body").removeClass('info-body');
 						$("#body").removeClass('contact-body');
 						$("#body").removeClass('volunteer-body');							
@@ -224,6 +235,7 @@
 				$("#contact").click(function(){
 					if ($("#contact-mode").css("display") === "none") {
 						$(".modal-view").fadeOut(100);
+						$("#intro-container").fadeOut(100);	
 						$("#body").removeClass('info-body');
 						$("#body").removeClass('volunteer-body');
 						$("#body").removeClass('sponsor-body');							

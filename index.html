@@ -192,7 +192,7 @@
 			$(document).ready(function(){
 				
 				$("#home").click(function(){
-					$(".modal-view").fadeOut(100);
+					$(".modal-view").fadeOut(100).delay(200);
 					$("#body").removeClass('info-body');
 					$("#body").removeClass('contact-body');
 					$("#body").removeClass('volunteer-body');
@@ -201,7 +201,11 @@
 				});
 				$("#information").click(function(){
 					if ($("#information-mode").css("display") === "none") {
-						$(".modal-view").fadeOut(1000);
+						if ($( "#body" ).hasClass('volunteer-body')) {
+							$(".modal-view").fadeOut(1000).delay(1000);	
+						} else {
+							$(".modal-view").fadeOut(1000).delay(500);	
+						}
 						$("#intro-container").fadeOut(100);	
 						$("#body").removeClass('contact-body');
 						$("#body").removeClass('volunteer-body');
@@ -212,7 +216,7 @@
 				});
 				$("#volunteer").click(function(){
 					if ($("#volunteer-mode").css("display") === "none") {
-						$(".modal-view").fadeOut(100);
+						$(".modal-view").fadeOut(100).delay(300);;
 						$("#intro-container").fadeOut(100);	
 						$("#body").removeClass('info-body');
 						$("#body").removeClass('contact-body');
@@ -223,7 +227,7 @@
 				})
 				$("#sponsorship").click(function(){
 					if ($("#sponsorship-mode").css("display") === "none") {
-						$(".modal-view").fadeOut(100);
+						$(".modal-view").fadeOut(100).delay(300);;
 						$("#intro-container").fadeOut(100);	
 						$("#body").removeClass('info-body');
 						$("#body").removeClass('contact-body');
@@ -234,7 +238,7 @@
 				});
 				$("#contact").click(function(){
 					if ($("#contact-mode").css("display") === "none") {
-						$(".modal-view").fadeOut(100);
+						$(".modal-view").fadeOut(100).delay(300);;
 						$("#intro-container").fadeOut(100);	
 						$("#body").removeClass('info-body');
 						$("#body").removeClass('volunteer-body');

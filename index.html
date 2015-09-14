@@ -232,7 +232,7 @@
 					<p> Please email Vincent Bartle at <a href="mailto:bearathlon@caltriathlon.com" target="_top">bearathlon@caltriathlon.com</a>.</p>
 				</div>
 			</section>			
-			<footer>
+			<footer id="footer">
 				<div id="sponsor-banner">	
 					<table class="sponsors-footer-table">
 						<tr>
@@ -256,6 +256,10 @@
 		</div>
 		<script>
 			$(document).ready(function(){
+				var isFirefox = typeof InstallTrigger !== 'undefined'; 
+				if (isFirefox) {
+					$("#footer").css("position", "fixed");
+				}
 				$("#home").click(function(){
 					$(".modal-view").fadeOut(3000);
 					$("#body").removeClass('course-info-body');

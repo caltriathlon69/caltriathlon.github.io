@@ -1,5 +1,14 @@
-@media screen and (min-width: 480px) {
-	header {
+@media screen and (max-width: 680px) {
+	#sponsors-top {
+		margin: 0 auto;
+		width: 200px;
+	}
+	
+	#sponsors-top img {
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+		max-height: 50px;
 	}
 }
 
@@ -45,11 +54,11 @@
 	}
 	
 	td img {
-	max-height: 100px;
-	max-width: 100px;
+		max-height: 100px;
+		max-width: 100px;
 	}
 	
-	#sponsor-footer, #contact-footer {
+	footer{
 		position: absolute;
 		bottom: 0;
 	}

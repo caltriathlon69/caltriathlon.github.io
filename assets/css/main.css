@@ -42,6 +42,13 @@ body {
    -webkit-transition: opacity .5s ease-in-out;
 }
 
+.dl-rules-body {
+	background-image:  url(../images/backgrounds/berkeley-sunset-background.jpg);
+	transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+}
+
 .results-body {
   	background-image: url(../images/backgrounds/berkeley-home-background.jpg);	
 	transition: opacity .5s ease-in-out;

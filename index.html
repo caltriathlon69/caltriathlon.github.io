@@ -23,6 +23,7 @@
 					<li id="info-elem"><a id="course-info"> COURSE </a></li>
 					<li><a id="general-info"> GENERAL </a></li>
 					<li><a id="register"> REGISTER </a></li>
+					<li><a id="dl-rules"> RULES </a></li>
 					<li><a id="results"> RESULTS </a></li>
 					<li><a id="volunteer"> VOLUNTEER </a></li>
 					<li><a id="sponsorship"> SPONSORS </a></li>
@@ -184,7 +185,60 @@
 					<br>
 				</div>
 			</section>		
-			<section class="modal-view" id="sponsorship-mode">
+		<section class="modal-view" id="dl-rules-mode">
+			<div class="modal">
+					<p> We are very excited to host a draft-legal race! However, with this different format of racing, there are various rules that first time draft-legal racers may be unfamiliar with.  Please review the following information so we can keep this race as safe and enjoyable as possible! </p>
+					<p>Ways to avoid time penalties: </p>
+				<h2 style="text-align: left;">Swim:
+					<ul>
+						<li>Make forward progress once the race start signal has been sounded</li>
+						<li>Do not block or interfere the forward progress of another competitor </li>
+					</ul>
+				</h2>
+				<h2 style="text-align: left;">T1:
+					<ul>
+						<li>Place swim cap, goggles, and wetsuit in the basket</li>
+						<li>Do not touch bike until helmet is on and clipped</li>
+					</ul>
+				</h2>
+				<h2 style="text-align: left;">Bike:
+					<ul>
+						<li>Mount bike after mount line</li>
+						<li>Dismount bike before dismount line </li>
+						<li>Lap out rule will be enforced*</li>
+						<li>All handlebars must be drop-style, no TT bikes allowed.</li>
+						<li>Reminder: All handlebars must have bar-end plugs as per usual triathlon regulation.</li>
+					</ul>
+				</h2>
+				<h2 style="text-align: left;">T2:
+					<ul>
+						<li>Re-rack bike either by seat or both brake levers</li>
+						<li>Place helmet and cycling shoes in basket</li>
+					</ul>
+				</h2>
+				<h2 style="text-align: left;">Run:
+					<ul>
+						<li>If race number is on the board at penalty box, stop and serve penalty*</li>
+						<li>the penalty box will be located at aid station 2 for the sprint (~0.75 miles into the run) and at the only aid station on the MTR (at University/Marina, ~0.3 miles into the run)</li>
+					</ul>
+				</h2>
+				<h1 style="text-align: left;">
+					<p>
+						Failure to comply with the actions listed above will result in a 10 second (15 second for swim) time penalty to be served at the penalty box. <br>
+						*If you are lapped out you are disqualified from the race and you must walk your bike back to transition.  Please note, this is for the safety of the racers. <br>
+						*Failure to serve time penalties will result in disqualification. <br>
+					</p>
+				</h1>
+				<h2 style="text-align: left;">Additional Rules:
+					<ul>
+						<li>All items in transition area must be used at some point throughout the race (so towels are not allowed)</li>
+						<li>No disk wheels allowed- bikes must have a minimum of 16 spokes</li>
+						<li>A race number belt is not necessary</li>
+					</ul>
+				</h2>
+			</div>
+		</section>	
+		<section class="modal-view" id="sponsorship-mode">
 				<div class="modal">
 					<h1> Sponsors</h1>
 					
@@ -270,6 +324,7 @@
 					$("#body").removeClass('sponsor-body');
 					$("#body").removeClass('results-body');	
 					$("#body").removeClass('register-body');	
+					$("#body").removeClass('dl-rules-body');
 				});
 				$("#course-info").click(function(){
 					if ($("#course-info-mode").css("display") === "none") {
@@ -280,6 +335,7 @@
 						$("#body").removeClass('results-body');
 						$("#body").removeClass('register-body');
 						$("#body").removeClass('general-info-body');
+						$("#body").removeClass('dl-rules-body');
 						$("#body").addClass('course-info-body');
 						$("#course-info-mode").fadeIn(1500);
 					}
@@ -293,8 +349,23 @@
 						$("#body").removeClass('results-body');
 						$("#body").removeClass('register-body');
 						$("#body").removeClass('course-info-body');
+						$("#body").removeClass('dl-rules-body');
 						$("#body").addClass('general-info-body');
 						$("#general-info-mode").fadeIn(1500);
+					}
+				});
+				$("#dl-rules").click(function(){
+					if ($("#dl-rules-mode").css("display") === "none") {
+						$(".modal-view").fadeOut(1000);
+						$("#body").removeClass('contact-body');
+						$("#body").removeClass('volunteer-body');
+						$("#body").removeClass('sponsor-body');		
+						$("#body").removeClass('results-body');
+						$("#body").removeClass('register-body');
+						$("#body").removeClass('course-info-body');
+						$("#body").removeClass('general-info-body');
+						$("#body").addClass('dl-rules-body');
+						$("#dl-rules-mode").fadeIn(1500);
 					}
 				});
 				$("#volunteer").click(function(){
@@ -305,6 +376,7 @@
 						$("#body").removeClass('contact-body');
 						$("#body").removeClass('sponsor-body');
 						$("#body").removeClass('results-body');
+						$("#body").removeClass('dl-rules-body');
 						$("#body").addClass('volunteer-body');
 						$("#body").removeClass('register-body');
 						$("#volunteer-mode").fadeIn(1500);
@@ -317,7 +389,8 @@
 						$("#body").removeClass('general-info-body');
 						$("#body").removeClass('contact-body');
 						$("#body").removeClass('sponsor-body');
-						$("#body").removeClass('volunteer-body');						
+						$("#body").removeClass('volunteer-body');	
+						$("#body").removeClass('dl-rules-body');					
 						$("#body").addClass('results-body');
 						$("#body").removeClass('register-body');
 						$("#results-mode").fadeIn(1500);
@@ -332,6 +405,7 @@
 						$("#body").removeClass('volunteer-body');							
 						$("#body").removeClass('results-body');
 						$("#body").removeClass('register-body');
+						$("#body").removeClass('dl-rules-body');
 						$("#body").addClass('sponsor-body');						
 						$("#sponsorship-mode").fadeIn(1500);
 					}
@@ -345,6 +419,7 @@
 						$("#body").removeClass('volunteer-body');							
 						$("#body").removeClass('results-body');
 						$("#body").removeClass('sponsor-body');
+						$("#body").removeClass('dl-rules-body');
 						$("#body").addClass('register-body');						
 						$("#register-mode").fadeIn(1500);
 					}
@@ -357,6 +432,7 @@
 						$("#body").removeClass('volunteer-body');
 						$("#body").removeClass('sponsor-body');							
 						$("#body").removeClass('results-body');
+						$("#body").removeClass('dl-rules-body');
 						$("#body").addClass('contact-body');
 						$("#body").removeClass('register-body');
 						$("#contact-mode").fadeIn(1500);

@@ -10,6 +10,19 @@
 		padding: 0;
 		max-height: 50px;
 	}
+
+}
+
+@media screen and (max-width: 1100px) {
+
+	.modal-nav {
+		display: hidden;
+	}
+
+	.modal-content {
+		width: 100%;
+	}
+
 }
 
 @media screen and (min-width: 680px) {
@@ -25,7 +38,12 @@
 		top: 200px;
 
 	}
-	
+
+	.modal-nav {
+
+	}
+
+
 	#cal-tri-logo {
 		float: left;
 		margin-left: 2.5%;
@@ -66,6 +84,8 @@
 	.sponsors-footer-table tr {
 		display: inline-block;
 	}
+
+
 		
 }
 

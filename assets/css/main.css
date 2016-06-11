@@ -64,7 +64,7 @@ body {
 }
 
 .volunteer-body {
-  	background-image: url(../images/backgrounds/background.jpg);	
+  	background-image: url(../images/backgrounds/volunteer_background.jpg);	
 	transition: opacity .5s ease-in-out;
    -moz-transition: opacity .5s ease-in-out;
    -webkit-transition: opacity .5s ease-in-out;
@@ -154,8 +154,13 @@ nav li {
 nav li:hover, nav a:hover {
 	cursor: pointer;
 	color: #ccc;
-
 }
+
+#gen-nav li:hover, #gen-nav a:hover {
+	cursor: pointer;
+	color: #ccc;	
+}
+
 
 #intro-container {
 	text-align: center;
@@ -190,6 +195,37 @@ nav li:hover, nav a:hover {
 	margin: 0 5%;
 	background-color: rgba(0, 0, 0, 0.7);
 	border: 7px #003a70 solid;
+}
+
+.gen-modal {
+	overflow: hidden;
+}
+
+.modal-content {
+	width: 80%;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+.modal-nav {
+	width: 15%;
+	height: 100%;
+	float: left;
+	margin: 0 0 0 20px;
+	padding: 0;
+	overflow: hidden;
+
+}
+
+#gen-nav {
+	position: fixed;
+	list-style: none;
+	margin-top: 20px;
+	border-right: 7px #003a70 solid;
+	padding-right: 10px;
+	overflow: hidden;
+	display: block;
 }
 
 .mtr {
@@ -271,6 +307,29 @@ iframe {
 .mtr-txt {
 	width: 90%;
 	text-align: justify;
+}
+
+.gen-panel {
+	width: 100%;
+	overflow: hidden;
+}
+
+.gen-map {
+	width: 90%;
+	height: 40%;
+}
+
+.gen-left {
+	/*display: block;*/
+	width: 50%;
+	float: left;
+
+}
+
+.gen-right {
+		/*display: block;*/
+	width: 50%;
+	float: right;
 }
 
 #racemill {

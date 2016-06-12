@@ -157,13 +157,13 @@
 					<div class="draft-legal">
 						<h1 style="border-top: 3px white dashed; padding-top: 40px;"> Course Information For Draft Legal & Classic Sprint Individuals</h1>
 						<p>A highly exciting and highly competitive sprint distance race with distances of 750 meters for the swim, 20km for the bike, and 5km for the run. The collegiate women will race in wave 1 (7:30 AM), and the collegiate men will race in the wave 2 (9:00 AM).</p>
-						<h2 style="font-size:0.9em;">Draft Legal Participants: </h2>
+						<p>Draft Legal Participants: </p>
 						<ul>
 							<li>Only 75 men in wave 1 (Men) and only 75 women in wave 2 (Women).</li>
 							<li>Only 5 men/5 women from each collegiate team will be permitted. This restriction will be lifted on August 1, 2016 if there are remaining spots. </li>
 							<li>35 spots reserved for community members in each draft legal wave.</li>
 						</ul>
-						<h2 style="font-size:0.9em;">Classic Participants:</h2> 
+						<p>Classic Participants:</p> 
 						<ul>
 							<li>Open to community members as well as collegiate athletes.</li>
 						</ul>
@@ -446,7 +446,7 @@
 					$("#footer").css("position", "fixed");
 				}
 				$("#home").click(function(){
-					$(".modal-view").fadeOut(3000);
+					$(".modal-view").fadeOut(1000);
 					$("#body").removeClass('course-info-body');
 					$("#body").removeClass('general-info-body');
 					$("#body").removeClass('contact-body');
@@ -457,8 +457,9 @@
 					$("#body").removeClass('dl-rules-body');
 				});
 				$("#course-info").click(function(){
+					setTimeout(function(){
 					if ($("#course-info-mode").css("display") === "none") {
-						$(".modal-view").fadeOut(1000);
+						$(".modal-view").fadeOut(200);
 						$("#body").removeClass('contact-body');
 						$("#body").removeClass('volunteer-body');
 						$("#body").removeClass('sponsor-body');		
@@ -467,12 +468,14 @@
 						$("#body").removeClass('general-info-body');
 						$("#body").removeClass('dl-rules-body');
 						$("#body").addClass('course-info-body');
-						$("#course-info-mode").fadeIn(1500);
+						$("#course-info-mode").fadeIn(300);
 					}
+					}, 500);
 				});
 				$("#general-info").click(function(){
+					setTimeout(function(){
 					if ($("#general-info-mode").css("display") === "none") {
-						$(".modal-view").fadeOut(1000);
+						$(".modal-view").fadeOut(200);
 						$("#body").removeClass('contact-body');
 						$("#body").removeClass('volunteer-body');
 						$("#body").removeClass('sponsor-body');		
@@ -481,12 +484,14 @@
 						$("#body").removeClass('course-info-body');
 						$("#body").removeClass('dl-rules-body');
 						$("#body").addClass('general-info-body');
-						$("#general-info-mode").fadeIn(1500);
+						$("#general-info-mode").fadeIn(300);
 					}
+					}, 500);
 				});
 				$("#dl-rules").click(function(){
+					setTimeout(function(){
 					if ($("#dl-rules-mode").css("display") === "none") {
-						$(".modal-view").fadeOut(1000);
+						$(".modal-view").fadeOut(200);
 						$("#body").removeClass('contact-body');
 						$("#body").removeClass('volunteer-body');
 						$("#body").removeClass('sponsor-body');		
@@ -495,12 +500,14 @@
 						$("#body").removeClass('course-info-body');
 						$("#body").removeClass('general-info-body');
 						$("#body").addClass('dl-rules-body');
-						$("#dl-rules-mode").fadeIn(1500);
+						$("#dl-rules-mode").fadeIn(300);
 					}
+					}, 500);
 				});
 				$("#volunteer").click(function(){
+					setTimeout(function(){
 					if ($("#volunteer-mode").css("display") === "none") {
-						$(".modal-view").fadeOut(100);
+						$(".modal-view").fadeOut(200);
 						$("#body").removeClass('course-info-body');
 						$("#body").removeClass('general-info-body');
 						$("#body").removeClass('contact-body');
@@ -509,12 +516,14 @@
 						$("#body").removeClass('dl-rules-body');
 						$("#body").addClass('volunteer-body');
 						$("#body").removeClass('register-body');
-						$("#volunteer-mode").fadeIn(1500);
+						$("#volunteer-mode").fadeIn(300);
 					}
+					}, 500);
 				});
 				$("#results").click(function(){
+					setTimeout(function(){
 					if ($("#results-mode").css("display") === "none") {
-						$(".modal-view").fadeOut(100);
+						$(".modal-view").fadeOut(200);
 						$("#body").removeClass('course-info-body');
 						$("#body").removeClass('general-info-body');
 						$("#body").removeClass('contact-body');
@@ -523,12 +532,14 @@
 						$("#body").removeClass('dl-rules-body');					
 						$("#body").addClass('results-body');
 						$("#body").removeClass('register-body');
-						$("#results-mode").fadeIn(1500);
+						$("#results-mode").fadeIn(300);
 					}
+					}, 500);
 				})
 				$("#sponsorship").click(function(){
+					setTimeout(function(){
 					if ($("#sponsorship-mode").css("display") === "none") {
-						$(".modal-view").fadeOut(100);
+						$(".modal-view").fadeOut(200);
 						$("#body").removeClass('course-info-body');
 						$("#body").removeClass('general-info-body');
 						$("#body").removeClass('contact-body');
@@ -537,37 +548,42 @@
 						$("#body").removeClass('register-body');
 						$("#body").removeClass('dl-rules-body');
 						$("#body").addClass('sponsor-body');						
-						$("#sponsorship-mode").fadeIn(1500);
+						$("#sponsorship-mode").fadeIn(300);
 					}
+					}, 500);
 				});
 				$("#register").click(function(){
-					if ($("#register-mode").css("display") === "none") {
-						$(".modal-view").fadeOut(100);
-						$("#body").removeClass('course-info-body');
-						$("#body").removeClass('general-info-body');
-						$("#body").removeClass('contact-body');
-						$("#body").removeClass('volunteer-body');							
-						$("#body").removeClass('results-body');
-						$("#body").removeClass('sponsor-body');
-						$("#body").removeClass('dl-rules-body');
-						$("#body").addClass('register-body');						
-						$("#register-mode").fadeIn(1500);
-					}
+					setTimeout(function(){
+						if ($("#register-mode").css("display") === "none") {
+							$(".modal-view").fadeOut(200);
+							$("#body").removeClass('course-info-body');
+							$("#body").removeClass('general-info-body');
+							$("#body").removeClass('contact-body');
+							$("#body").removeClass('volunteer-body');							
+							$("#body").removeClass('results-body');
+							$("#body").removeClass('sponsor-body');
+							$("#body").removeClass('dl-rules-body');
+							$("#body").addClass('register-body');						
+							$("#register-mode").fadeIn(300);
+						}
+					}, 500);
 				});
 				$("#contact").click(function(){
-					if ($("#contact-mode").css("display") === "none") {
-						$(".modal-view").fadeOut(100);
-						$("#body").removeClass('course-info-body');
-						$("#body").removeClass('general-info-body');
-						$("#body").removeClass('volunteer-body');
-						$("#body").removeClass('sponsor-body');							
-						$("#body").removeClass('results-body');
-						$("#body").removeClass('dl-rules-body');
-						$("#body").addClass('contact-body');
-						$("#body").removeClass('register-body');
-						$("#contact-mode").fadeIn(1500);
-						$("footer").animate();
-					}
+					setTimeout(function(){
+						if ($("#contact-mode").css("display") === "none") {
+							$(".modal-view").fadeOut(200);
+							$("#body").removeClass('course-info-body');
+							$("#body").removeClass('general-info-body');
+							$("#body").removeClass('volunteer-body');
+							$("#body").removeClass('sponsor-body');							
+							$("#body").removeClass('results-body');
+							$("#body").removeClass('dl-rules-body');
+							$("#body").addClass('contact-body');
+							$("#body").removeClass('register-body');
+							$("#contact-mode").fadeIn(300);
+							$("footer").animate();
+						}	
+					}, 500);
 				});
 				var infoleft = 1;
 				$("#mtr-navigation").click(function(){

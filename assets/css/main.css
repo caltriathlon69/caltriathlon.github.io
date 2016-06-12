@@ -156,7 +156,15 @@ nav li:hover, nav a:hover {
 	color: #ccc;
 }
 
-#gen-nav li:hover, #gen-nav a:hover {
+#gen-nav-title {
+	font-size: 1em;
+}
+
+.gen-nav-elem {
+	font-size: 0.85em;
+}
+
+#gen-nav li:hover, .gen-nav a:hover {
 	cursor: pointer;
 	color: #ccc;	
 }
@@ -221,7 +229,7 @@ nav li:hover, nav a:hover {
 #gen-nav {
 	position: fixed;
 	list-style: none;
-	margin-top: 20px;
+	margin-top: 40px;
 	border-right: 7px #003a70 solid;
 	padding-right: 10px;
 	overflow: hidden;
@@ -291,17 +299,56 @@ nav li:hover, nav a:hover {
 
 
 .course-frame {
-	width: 100%;
+	width: 95%;
+	overflow: hidden;
+	margin-left: auto ;
+  	margin-right: auto ;
 }
 
-.course-frame p {
-	padding: 0 40px;
+.course-left p, .course-right p {
+	padding: 0;
+	overflow: hidden;
+}
+
+.courses {
+	border-top: 3px white dashed; 
+	padding-top: 10px;
+	/*border-bottom: 3px white dashed;*/
+}
+
+.course-left {
+	width: 40%;
+	float: left;
+	overflow: hidden;
+}
+
+.course-right {
+	width: 40%;
+	float: right;
+	overflow: hidden;
+
+}
+
+.course-iframe {
+	width: 90%;
+	height: 400px;
+	margin-left: 4%;
+	margin-right: 4%;
 }
 
 iframe {
 	display: block;
 	width: 90%;
 	margin: 0 auto;
+}
+
+.course-image {
+	width: 50%;
+}
+
+.course-txt {
+	width: 40%;
+	padding: 20px;
 }
 
 .mtr-txt {
@@ -320,7 +367,6 @@ iframe {
 }
 
 .gen-left {
-	/*display: block;*/
 	width: 50%;
 	float: left;
 

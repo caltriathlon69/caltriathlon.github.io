@@ -11,16 +11,47 @@
 		max-height: 50px;
 	}
 
+	.course-left {
+		width: 100%;
+		clear: both;
+		float: none;
+	}
+
+	.course-right {
+		width: 100%;
+		clear: both;
+		float: none;
+	}
+
+	.course-txt {
+		overflow: hidden;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;		
+	}
+
 }
 
 @media screen and (max-width: 1100px) {
 
 	.modal-nav {
-		display: hidden;
+		display: none;
+	}
+
+	#gen-nav {
+		display: none;
 	}
 
 	.modal-content {
 		width: 100%;
+	}
+
+	.course-frame {
+		font-size: 0.8em;
+	}
+
+	.info-navigation {
+		font-size: 0.7em;
 	}
 
 }
@@ -97,5 +128,16 @@
 	
 }
 
+@media screen and (max-width: 1320px) {
+	
+	#gen-nav-title {
+		font-size: 0.8em;
+	}
+
+	.gen-nav-elem {
+		font-size: 0.7em;
+	}
+	
+}
 
 

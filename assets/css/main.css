@@ -165,9 +165,9 @@ nav li:hover, nav a:hover {
 	font-size: 0.85em;
 }
 
-#gen-nav li:hover, .gen-nav a:hover {
+.gen-nav-elem li:hover, .gen-nav-elem a:hover {
 	cursor: pointer;
-	color: #ccc;	
+	color: #ccc;
 }
 
 

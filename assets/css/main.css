@@ -42,6 +42,7 @@ body {
    -webkit-transition: opacity .5s ease-in-out;
 }
 
+
 .dl-rules-body {
 	background-image:  url(../images/backgrounds/berkeley-sunset-background.jpg);
 	transition: opacity .5s ease-in-out;
@@ -50,14 +51,14 @@ body {
 }
 
 .results-body {
-  	background-image: url(../images/backgrounds/berkeley-home-background.jpg);	
+  	background-image: url(../images/backgrounds/results-background.jpg);	
 	transition: opacity .5s ease-in-out;
    -moz-transition: opacity .5s ease-in-out;
    -webkit-transition: opacity .5s ease-in-out;
 }
 
 .register-body {
-  	background-image: url(../images/backgrounds/berkeley-home-background.jpg);	
+  	background-image: url(../images/backgrounds/register-background.jpg);	
 	transition: opacity .5s ease-in-out;
    -moz-transition: opacity .5s ease-in-out;
    -webkit-transition: opacity .5s ease-in-out;

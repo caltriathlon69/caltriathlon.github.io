@@ -46,7 +46,6 @@ ul {
 
 .general-info-body {
 	background-image:  url(../images/backgrounds/gen_background.jpg);
-	background-position: center 120px;
 	transition: opacity 2s ease-in-out;
    -moz-transition: opacity 2s ease-in-out;
    -webkit-transition: opacity 2s ease-in-out;
@@ -54,14 +53,15 @@ ul {
 
 
 .dl-rules-body {
-	background-image:  url(../images/backgrounds/berkeley-sunset-background.jpg);
+	background-image:  url(../images/backgrounds/rules_background.jpg);
 	transition: opacity 2s ease-in-out;
    -moz-transition: opacity 2s ease-in-out;
    -webkit-transition: opacity 2s ease-in-out;
 }
 
 .results-body {
-  	background-image: url(../images/backgrounds/results-background.jpg);	
+  	background-image: url(../images/backgrounds/results_background.jpg);
+	  background-position: center center;	
 	transition: opacity 2s ease-in-out;
    -moz-transition: opacity 2s ease-in-out;
    -webkit-transition: opacity 2s ease-in-out;
@@ -210,6 +210,10 @@ nav li:hover, nav a:hover {
 	min-height: 50%;
 	padding-bottom: 100px;
 	display: none;
+}
+
+.results-view {
+	width: 50%;
 }
 
 #index-modal-view {

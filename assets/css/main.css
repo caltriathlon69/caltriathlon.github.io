@@ -405,9 +405,10 @@ iframe {
 }
 
 #racemill {
-	width: 90%;
+	width: 50%;
 	display: block;
-	margin: 0 auto 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #sponsors-top {

@@ -31,65 +31,73 @@ ul {
 }
 
 .intro-body {
-	background-image: url(../images/backgrounds/berkeley-background-new.jpg);
-	transition: opacity .5s ease-in-out;
-   -moz-transition: opacity .5s ease-in-out;
-   -webkit-transition: opacity .5s ease-in-out;
+	background-image: url(../images/backgrounds/bearathlon_background_2016_s.jpg);
+	transition: opacity 2s ease-in-out;
+   -moz-transition: opacity 2s ease-in-out;
+   -webkit-transition: opacity 2s ease-in-out;
 }
 
 .course-info-body {
 	background-image:  url(../images/backgrounds/berkeley-sunset-background.jpg);
-	transition: opacity .5s ease-in-out;
-   -moz-transition: opacity .5s ease-in-out;
-   -webkit-transition: opacity .5s ease-in-out;
+	transition: opacity 2s ease-in-out;
+   -moz-transition: opacity 2s ease-in-out;
+   -webkit-transition: opacity 2s ease-in-out;
 }
 
 .general-info-body {
-	background-image:  url(../images/backgrounds/berkeley-sunset-background.jpg);
-	transition: opacity .5s ease-in-out;
-   -moz-transition: opacity .5s ease-in-out;
-   -webkit-transition: opacity .5s ease-in-out;
+	background-image:  url(../images/backgrounds/gen_background.jpg);
+	background-position: center 120px;
+	transition: opacity 2s ease-in-out;
+   -moz-transition: opacity 2s ease-in-out;
+   -webkit-transition: opacity 2s ease-in-out;
 }
 
 
 .dl-rules-body {
 	background-image:  url(../images/backgrounds/berkeley-sunset-background.jpg);
-	transition: opacity .5s ease-in-out;
-   -moz-transition: opacity .5s ease-in-out;
-   -webkit-transition: opacity .5s ease-in-out;
+	transition: opacity 2s ease-in-out;
+   -moz-transition: opacity 2s ease-in-out;
+   -webkit-transition: opacity 2s ease-in-out;
 }
 
 .results-body {
   	background-image: url(../images/backgrounds/results-background.jpg);	
-	transition: opacity .5s ease-in-out;
-   -moz-transition: opacity .5s ease-in-out;
-   -webkit-transition: opacity .5s ease-in-out;
+	transition: opacity 2s ease-in-out;
+   -moz-transition: opacity 2s ease-in-out;
+   -webkit-transition: opacity 2s ease-in-out;
 }
 
 .register-body {
   	background-image: url(../images/backgrounds/register-background.jpg);	
-	transition: opacity .5s ease-in-out;
-   -moz-transition: opacity .5s ease-in-out;
-   -webkit-transition: opacity .5s ease-in-out;
+	transition: opacity 2s ease-in-out;
+   -moz-transition: opacity 2s ease-in-out;
+   -webkit-transition: opacity 2s ease-in-out;
 }
 
 .volunteer-body {
   	background-image: url(../images/backgrounds/volunteer_background.jpg);	
-	transition: opacity .5s ease-in-out;
-   -moz-transition: opacity .5s ease-in-out;
-   -webkit-transition: opacity .5s ease-in-out;
+	transition: opacity 2s ease-in-out;
+   -moz-transition: opacity 2s ease-in-out;
+   -webkit-transition: opacity 2s ease-in-out;
 }
 
 .contact-body {
 	background-image: none;
 	background-color: black;
-	transition: opacity .5s ease-in-out;
-   -moz-transition: opacity .5s ease-in-out;
-   -webkit-transition: opacity .5s ease-in-out;
+	transition: opacity 2s ease-in-out;
+   -moz-transition: opacity 2s ease-in-out;
+   -webkit-transition: opacity 2s ease-in-out;
 }
 
 .sponsor-body {
 	background-image: url(../images/backgrounds/sponsor-background.jpg);
+	transition: opacity 2s ease-in-out;
+   -moz-transition: opacity 2s ease-in-out;
+   -webkit-transition: opacity 2s ease-in-out;
+}
+
+.transparent {
+opacity:0;
 }
 
 * {
@@ -388,6 +396,7 @@ iframe {
 	float: right;
 }
 
+
 #racemill {
 	width: 90%;
 	display: block;
@@ -422,6 +431,10 @@ iframe {
 td img {
 	max-height: 50px;
 	max-width: 50px;
+}
+
+#andy_jessop {
+	height: 100%;
 }
 
 footer {

@@ -31,7 +31,7 @@ ul {
 }
 
 .intro-body {
-	background-image: url(../images/backgrounds/bearathlon_ncaa.jpg);
+	background-image: url(../images/backgrounds/bearathlon_background_2016_s.jpg);
 	transition: opacity 2s ease-in-out;
    -moz-transition: opacity 2s ease-in-out;
    -webkit-transition: opacity 2s ease-in-out;
@@ -258,11 +258,23 @@ nav li:hover, nav a:hover {
 	display: block;
 }
 
-.mtr {
+.course-modal-nav {
 	display: none;
 }
 
-#info-navigation-container {
+.course-modal-content {
+	width: 100%;
+}
+
+.draft-legal, .collegiate-classic, .open-classic {
+	overflow: hidden;
+}
+
+.hidden-races {
+	display: none;
+}
+
+#info-navigation-container-wrapper {
 	height: 70px;
 	width: 90%;
 	background-color: #003a70;
@@ -270,18 +282,29 @@ nav li:hover, nav a:hover {
 	position: relative;
 	margin: 0 auto 0;
 	padding: 0;
+
+}
+
+#info-navigation-container {
+	width: 100%;
+	height: 100%;
+	position: absolute;
 }
 
 .info-navigation {
 	height: 100%;
-	width: 50%;
+	width: 33.33%;
 	margin: 0;
 	padding: 15px 0 0 0;
+	/*position: absolute;*/
+	float: left;
 	display: inline-block;
 	text-align: center;
 	cursor: pointer;
 	box-sizing: border-box;
-
+	border-top: 7px #003a70 solid;
+	border-bottom: 7px #003a70 solid;
+	z-index: 9999;
 }
 
 .info-navigation:hover {
@@ -294,8 +317,8 @@ nav li:hover, nav a:hover {
 .active-info {
 	position: absolute;
 	height: 100%;
-	width: 50%;
-	left : 0;
+	width: 33.33%;
+	margin: 0;
 	background-color: #FDB515;
 	display: block;
 	z-index: 0;
@@ -303,28 +326,23 @@ nav li:hover, nav a:hover {
 
 
 #dl-navigation {
-	z-index: 9999;
-	position: absolute;
-	border-top: 7px #003a70 solid;
 	border-left: 7px #003a70 solid;
-	border-bottom: 7px #003a70 solid;
 }
 
-#mtr-navigation {
-	z-index: 9999;
-	position: absolute;
-	right: 0;
-	border-top: 7px #003a70 solid;
+#cc-navigation {
+
+}
+
+#oc-navigation {
 	border-right: 7px #003a70 solid;
-	border-bottom: 7px #003a70 solid;
 }
 
 
 .course-frame {
 	width: 95%;
 	overflow: hidden;
-	margin-left: auto ;
-  	margin-right: auto ;
+	margin-left: auto;
+  	margin-right: auto;
 }
 
 .course-left p, .course-right p {
@@ -349,6 +367,11 @@ nav li:hover, nav a:hover {
 	float: right;
 	overflow: hidden;
 
+}
+
+.course-mid {
+	display: block;
+	margin: 0 auto;
 }
 
 .course-iframe {
@@ -395,7 +418,7 @@ iframe {
 }
 
 .gen-right {
-		/*display: block;*/
+	/*display: block;*/
 	width: 50%;
 	float: right;
 }
@@ -409,6 +432,40 @@ iframe {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.terms-conditions {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 30%;
+	background-color: white;
+	color: black;
+	font-family: 'Times New Roman', Times, serif;
+	overflow: scroll;
+}
+
+.terms-conditions::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+.terms-conditions::-webkit-scrollbar-track:vertical {
+border: 1px solid #FDB515;
+height: 100%;
+
+}
+
+.terms-conditions::-webkit-scrollbar-thumb {
+background-color: #FDB515;  
+border-radius: 10px;
+height: 20%;
+}
+
+.terms-conditions::-webkit-scrollbar-thumb:hover {
+background-color: #fdb015;  
+cursor: pointer;
 }
 
 #sponsors-top {

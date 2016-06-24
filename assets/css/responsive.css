@@ -34,6 +34,12 @@
 		width: 100%;
 	}
 
+	.gen-map {
+		width: 100px;
+		height: 100px;
+		display: block;
+	}
+
 }
 
 @media screen and (max-width: 1100px) {
@@ -41,6 +47,13 @@
 	.modal-nav {
 		display: none;
 	}
+
+	.gen-map {
+		width: 150px;
+		height: 150px;
+		display: block;
+	}
+
 
 	#gen-nav {
 		display: none;

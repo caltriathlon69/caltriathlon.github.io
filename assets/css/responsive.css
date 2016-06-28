@@ -37,7 +37,7 @@
 	.gen-map {
 		width: 100px;
 		height: 100px;
-		display: block;
+		display: none;
 	}
 
 }
@@ -51,7 +51,7 @@
 	.gen-map {
 		width: 150px;
 		height: 150px;
-		display: block;
+		display: none;
 	}
 
 

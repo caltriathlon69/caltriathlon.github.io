@@ -2,112 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dedff0b8-9da3-4093-b0ee-6de017552b0b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bearathlon Logo.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bearathlon Mockup.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bearathlon Mockup.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bearathlon-logos/Components/Cal Logo/Cal Logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bearathlon-logos/Components/Cal Logo/Cal Logo.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bearathlon-logos/Components/California Triathlon Components/California.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bearathlon-logos/Components/California Triathlon Components/California.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bearathlon-logos/Components/California Triathlon Components/Triathlon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bearathlon-logos/Components/California Triathlon Components/Triathlon.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bearathlon-logos/Components/cal-logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bearathlon-logos/logo1/Bearathlon Logo (Just Head).psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bearathlon-logos/logo1/Bearathlon Logo.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bearathlon-logos/logo1/Bearathlon-Logo-(Just-Head).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bearathlon-logos/logo1/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bearathlon-logos/logo2/Bearathlon-Logo-2(white).psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bearathlon-logos/logo2/Bearathlon-Logo-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bearathlon-logos/logo2/Bearathlon-Logo-2.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bearathlon-logos/logo2/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bearathlon.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/_DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/.main.css.swp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/_DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/files/_DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/_DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/about/Hybrid1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/about/Hybrid2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/about/MapView.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/about/_DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/about/weather-conditions.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/_DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/bearathlon_background_2016_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/bearathlon_background_2016_s.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/bearathlon_ncaa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/berkeley-background.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/berkeley-sunset-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/bgb15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/campanile-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/contact-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/gen_background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/intro-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/marina-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/register-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/register_slideshow/register-background-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/register_slideshow/register-background-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/results.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/results_background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/results_slideshow/results_background_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/results_slideshow/results_background_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/rules_background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/sponsor-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/backgrounds/volunteer_background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/logos/Bearathlon-Logo-blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/logos/Bearathlon-Logo-lblue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/logos/Bearathlon-Logo-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/logos/Bearathlon-Logo-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/logos/Bearathlon-Logo-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/logos/Small.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/logos/WomenCollegiate_RegionalQualifier.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/logos/WomenCollegiate_RegionalQualifier.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/logos/bearathlon-banner.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/logos/caltrilogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/logos/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/logos/favicon.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/logos/main-banner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/BowlesVerna.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/BowlesVerna.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/Clif.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/Clif.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/GU.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/GU.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/OYME-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/OYME-white.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/OYME.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/OYME.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/OYMlogo.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/Odyssey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/Primal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/Primal.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/Roka.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/Roka.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/Rudy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/Rudy.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/SB.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/SB.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/_DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/andy_jessop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/finis.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/finis.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/kiwami.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/kiwami.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/p-fits.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/prima;.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/primalW.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/redbull.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/redbull.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/redbullW.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sponsors/roadid.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery-1.11.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/smoothscroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/results/Results.xlsx4r.xlsx" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.html" afterPath="$PROJECT_DIR$/register.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -125,27 +22,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="2940">
+              <caret line="196" column="71" lean-forward="false" selection-start-line="196" selection-start-column="71" selection-end-line="196" selection-end-column="71" />
               <folding>
-                <marker date="1496667265000" expanded="true" signature="10728:10752" ph="..." />
-                <marker date="1496667265000" expanded="true" signature="10728:10771" ph="..." />
-                <marker date="1496667265000" expanded="true" signature="10728:10786" ph="..." />
-                <marker date="1496667265000" expanded="true" signature="10813:11701" ph="..." />
-                <marker date="1496667265000" expanded="true" signature="10843:11686" ph="..." />
-                <marker date="1496667265000" expanded="true" signature="10883:11667" ph="..." />
-                <marker date="1496667265000" expanded="true" signature="10964:11046" ph="..." />
-                <marker date="1496667265000" expanded="true" signature="11114:11504" ph="..." />
-                <marker date="1496667265000" expanded="true" signature="11443:11451" ph="..." />
-                <marker date="1496667265000" expanded="true" signature="11547:11644" ph="..." />
-                <marker date="1496667265000" expanded="true" signature="11752:11999" ph="..." />
-                <marker date="1496667265000" expanded="true" signature="11784:11985" ph="..." />
-                <marker date="1496667265000" expanded="true" signature="11814:11970" ph="..." />
-                <marker date="1496667265000" expanded="true" signature="11866:11951" ph="..." />
-                <marker date="1496667265000" expanded="true" signature="11901:11907" ph="©" />
+                <marker date="1497323838000" expanded="false" signature="10117:10125" ph="..." />
+                <marker date="1497323838000" expanded="false" signature="10864:10872" ph="..." />
+                <marker date="1497323838000" expanded="true" signature="10936:10963" ph="..." />
               </folding>
             </state>
           </provider>
@@ -164,14 +49,14 @@
       <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-2130">
+              <caret line="94" column="172" lean-forward="false" selection-start-line="94" selection-start-column="172" selection-end-line="94" selection-end-column="172" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rules.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rules.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rules.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -218,6 +103,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -261,8 +147,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,12 +271,15 @@
       <workItem from="1496432546007" duration="146000" />
       <workItem from="1496517379876" duration="5970000" />
       <workItem from="1496633552000" duration="506000" />
-      <workItem from="1496667240839" duration="188000" />
+      <workItem from="1496667240839" duration="332000" />
+      <workItem from="1496783609628" duration="109000" />
+      <workItem from="1497140574867" duration="44000" />
+      <workItem from="1497322764287" duration="1003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10681000" />
+    <option name="totallyTimeSpent" value="11981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -430,391 +319,112 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1496667265000" expanded="true" signature="10728:10752" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10728:10771" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10728:10786" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10813:11701" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10843:11686" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10883:11667" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10964:11046" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11114:11504" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11443:11451" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11547:11644" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11752:11999" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11784:11985" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11814:11970" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11866:11951" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11901:11907" ph="©" />
+            <marker date="1497323838000" expanded="false" signature="10117:10125" ph="..." />
+            <marker date="1497323838000" expanded="false" signature="10864:10872" ph="..." />
+            <marker date="1497323838000" expanded="true" signature="10936:10963" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bearathlon Logo.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bearathlon Mockup.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bearathlon Mockup.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bearathlon.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/logos/favicon.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="64" lean-forward="false" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Bearathlon Logo.psd" />
+    <entry file="file://$PROJECT_DIR$/Bearathlon Mockup.jpg" />
+    <entry file="file://$PROJECT_DIR$/Bearathlon Mockup.psd" />
+    <entry file="file://$PROJECT_DIR$/Bearathlon.psd" />
+    <entry file="file://$PROJECT_DIR$/assets/images/logos/favicon.psd" />
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="67" lean-forward="true" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
           <folding>
-            <marker date="1496667265000" expanded="true" signature="10728:10752" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10728:10771" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10728:10786" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10813:11701" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10843:11686" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10883:11667" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10964:11046" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11114:11504" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11443:11451" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11547:11644" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11752:11999" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11784:11985" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11814:11970" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11866:11951" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11901:11907" ph="©" />
+            <marker date="1497323838000" expanded="false" signature="10117:10125" ph="..." />
+            <marker date="1497323838000" expanded="false" signature="10864:10872" ph="..." />
+            <marker date="1497323838000" expanded="true" signature="10936:10963" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="64" lean-forward="true" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1496667265000" expanded="true" signature="10728:10752" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10728:10771" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10728:10786" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10813:11701" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10843:11686" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10883:11667" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10964:11046" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11114:11504" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11443:11451" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11547:11644" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11752:11999" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11784:11985" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11814:11970" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11866:11951" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11901:11907" ph="©" />
+            <marker date="1497323838000" expanded="false" signature="10117:10125" ph="..." />
+            <marker date="1497323838000" expanded="false" signature="10864:10872" ph="..." />
+            <marker date="1497323838000" expanded="true" signature="10936:10963" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/bearathlon_background_2016_s.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/bearathlon_background_2016_s.jpg" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1496667265000" expanded="true" signature="10728:10752" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10728:10771" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10728:10786" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10813:11701" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10843:11686" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10883:11667" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10964:11046" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11114:11504" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11443:11451" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11547:11644" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11752:11999" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11784:11985" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11814:11970" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11866:11951" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11901:11907" ph="©" />
+            <marker date="1497323838000" expanded="false" signature="10117:10125" ph="..." />
+            <marker date="1497323838000" expanded="false" signature="10864:10872" ph="..." />
+            <marker date="1497323838000" expanded="true" signature="10936:10963" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/bearathlon_background_2016_s.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/bearathlon_background_2016_s.jpg" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1496667265000" expanded="true" signature="10728:10752" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10728:10771" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10728:10786" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10813:11701" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10843:11686" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10883:11667" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10964:11046" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11114:11504" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11443:11451" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11547:11644" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11752:11999" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11784:11985" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11814:11970" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11866:11951" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11901:11907" ph="©" />
+            <marker date="1497323838000" expanded="false" signature="10117:10125" ph="..." />
+            <marker date="1497323838000" expanded="false" signature="10864:10872" ph="..." />
+            <marker date="1497323838000" expanded="true" signature="10936:10963" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/bearathlon_background_2016_s.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/bearathlon_background_2016_s.jpg" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="81" lean-forward="false" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
           <folding>
-            <marker date="1496667265000" expanded="true" signature="10728:10752" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10728:10771" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10728:10786" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10813:11701" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10843:11686" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10883:11667" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10964:11046" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11114:11504" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11443:11451" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11547:11644" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11752:11999" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11784:11985" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11814:11970" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11866:11951" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11901:11907" ph="©" />
+            <marker date="1497323838000" expanded="false" signature="10117:10125" ph="..." />
+            <marker date="1497323838000" expanded="false" signature="10864:10872" ph="..." />
+            <marker date="1497323838000" expanded="true" signature="10936:10963" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/bearathlon_background_2016_s.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1445">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/Components/cal-logo.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/Components/California Triathlon Components/Triathlon.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/Components/California Triathlon Components/Triathlon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/Components/California Triathlon Components/California.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/Components/California Triathlon Components/California.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/Components/Cal Logo/Cal Logo.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/Components/Cal Logo/Cal Logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/logo2/Bearathlon-Logo-2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/logo1/Bearathlon Logo.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/logo1/Bearathlon Logo (Just Head).psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/logo2/Bearathlon-Logo-2.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/about/Hybrid1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/bearathlon_background_2016_s.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/bearathlon_background_2016_s.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/berkeley-sunset-background.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/bearathlon_ncaa.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/logos/bearathlon-banner.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/marina-background.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/intro-background.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/berkeley-background.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/logos/favicon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <marker date="1496667265000" expanded="true" signature="10728:10752" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10728:10771" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10728:10786" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10813:11701" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10843:11686" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10883:11667" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="10964:11046" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11114:11504" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11443:11451" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11547:11644" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11752:11999" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11784:11985" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11814:11970" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11866:11951" ph="..." />
-            <marker date="1496667265000" expanded="true" signature="11901:11907" ph="©" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bearathlon Logo.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bearathlon Mockup.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bearathlon Mockup.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bearathlon.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/logos/favicon.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="64" lean-forward="false" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/bearathlon_background_2016_s.jpg" />
+    <entry file="file://$PROJECT_DIR$/assets/css/responsive.css" />
+    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/Components/cal-logo.jpg" />
+    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/Components/California Triathlon Components/Triathlon.psd" />
+    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/Components/California Triathlon Components/Triathlon.png" />
+    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/Components/California Triathlon Components/California.psd" />
+    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/Components/California Triathlon Components/California.png" />
+    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/Components/Cal Logo/Cal Logo.psd" />
+    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/Components/Cal Logo/Cal Logo.png" />
+    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/logo2/Bearathlon-Logo-2.png" />
+    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/logo1/Bearathlon Logo.psd" />
+    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/logo1/Bearathlon Logo (Just Head).psd" />
+    <entry file="file://$PROJECT_DIR$/Bearathlon-logos/logo2/Bearathlon-Logo-2.psd" />
+    <entry file="file://$PROJECT_DIR$/assets/images/about/Hybrid1.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/bearathlon_background_2016_s.jpg" />
+    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/bearathlon_background_2016_s.psd" />
+    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/berkeley-sunset-background.jpg" />
+    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/bearathlon_ncaa.jpg" />
+    <entry file="file://$PROJECT_DIR$/assets/images/logos/bearathlon-banner.psd" />
+    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/marina-background.jpg" />
+    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/intro-background.jpg" />
+    <entry file="file://$PROJECT_DIR$/assets/images/backgrounds/berkeley-background.psd" />
+    <entry file="file://$PROJECT_DIR$/assets/images/logos/favicon.png" />
+    <entry file="file://$PROJECT_DIR$/Bearathlon Logo.psd" />
+    <entry file="file://$PROJECT_DIR$/Bearathlon Mockup.jpg" />
+    <entry file="file://$PROJECT_DIR$/Bearathlon Mockup.psd" />
+    <entry file="file://$PROJECT_DIR$/Bearathlon.psd" />
+    <entry file="file://$PROJECT_DIR$/assets/images/logos/favicon.psd" />
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css" />
     <entry file="file://$PROJECT_DIR$/results.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -836,6 +446,34 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2130">
+          <caret line="94" column="172" lean-forward="false" selection-start-line="94" selection-start-column="172" selection-end-line="94" selection-end-column="172" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2940">
+          <caret line="196" column="71" lean-forward="false" selection-start-line="196" selection-start-column="71" selection-end-line="196" selection-end-column="71" />
+          <folding>
+            <marker date="1497323838000" expanded="false" signature="10117:10125" ph="..." />
+            <marker date="1497323838000" expanded="false" signature="10864:10872" ph="..." />
+            <marker date="1497323838000" expanded="true" signature="10936:10963" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

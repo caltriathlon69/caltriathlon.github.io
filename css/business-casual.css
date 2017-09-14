@@ -41,6 +41,14 @@ hr {
     display: none;
 }
 
+th, td {
+    padding: 15px;
+}
+
+.sponsors-table{
+    padding: 15px;
+}
+
 .navbar-brand {
     text-transform: uppercase;
     font-weight: 900;

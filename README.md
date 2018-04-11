@@ -2,7 +2,7 @@
 Bearathlon is a triathlon hosted by the students of Cal Triathlon at the University of California Berkeley.
 
 ## Bugs and Issues
-please email collin.chin@berkeley.edu
+Please email matthew_khudari@berkeley.edu with any questions.
 
 ## Creator
 This website is based of a bootstrap template called business casual by David Miller.

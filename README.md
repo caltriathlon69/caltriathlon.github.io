@@ -1,4 +1,4 @@
-# This is the website for Bearathlon
+# This is the website for Bearathlon 2022
 Bearathlon is a triathlon hosted by the students of Cal Triathlon at the University of California Berkeley.
 
 ## Bugs and Issues
